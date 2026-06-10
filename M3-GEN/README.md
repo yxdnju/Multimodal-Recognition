@@ -13,3 +13,19 @@ Key Features
 🎯 Multi-Task Learning: Main classifier + auxiliary classifiers for modality-specific predictions
 
 📊 Attention Visualization: Comprehensive tools for interpreting cross-modal interactions
+
+
+🚀 Quick Start
+
+Installation
+
+# Clone repository
+git clone https://github.com/yourusername/RCMAN.git
+cd RCMAN
+
+# Create conda environment
+conda create -n rcman python=3.8
+conda activate rcman
+
+# Install dependencies
+pip install torch>=1.9.0 transformers numpy scikit-learn matplotlib seaborn networkx
